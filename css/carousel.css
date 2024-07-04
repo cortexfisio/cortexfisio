@@ -1,0 +1,189 @@
+@-webkit-keyframes cf4FadeInOut {
+  0% {
+    opacity: 1;
+  }
+  17% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 0;
+  }
+  98% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-moz-keyframes cf4FadeInOut {
+  0% {
+    opacity: 1;
+  }
+  17% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 0;
+  }
+  98% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-o-keyframes cf4FadeInOut {
+  0% {
+    opacity: 1;
+  }
+  17% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 0;
+  }
+  98% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes cf4FadeInOut {
+  0% {
+    opacity: 1;
+  }
+  17% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 0;
+  }
+  98% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes zoomEffect {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.5);
+  }
+  90% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+#example {
+  position: relative !important;
+  height: 100vh;
+}
+#example .slides {
+  position: absolute !important;
+}
+
+#example .slides {
+  -webkit-animation-name: cf4FadeInOut;
+  -webkit-animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-duration: 48s;
+  -moz-animation-name: cf4FadeInOut;
+  -moz-animation-timing-function: ease-in-out;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-duration: 48s;
+  -o-animation-name: cf4FadeInOut;
+  -o-animation-timing-function: ease-in-out;
+  -o-animation-iteration-count: infinite;
+  -o-animation-duration: 48s;
+  animation-name: cf4FadeInOut;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-duration: 48s;
+}
+#example .slides:nth-of-type(1) {
+  -webkit-animation-delay: 40s;
+  -moz-animation-delay: 40s;
+  -o-animation-delay: 40s;
+  animation-delay: 40s;
+}
+#example .slides:nth-of-type(2) {
+  -webkit-animation-delay: 32s;
+  -moz-animation-delay: 32s;
+  -o-animation-delay: 32s;
+  animation-delay: 32s;
+}
+#example .slides:nth-of-type(3) {
+  -webkit-animation-delay: 24s;
+  -moz-animation-delay: 24s;
+  -o-animation-delay: 24s;
+  animation-delay: 24s;
+}
+#example .slides:nth-of-type(4) {
+  -webkit-animation-delay: 16s;
+  -moz-animation-delay: 16s;
+  -o-animation-delay: 16s;
+  animation-delay: 16s;
+}
+#example .slides:nth-of-type(5) {
+  -webkit-animation-delay: 8s;
+  -moz-animation-delay: 8s;
+  -o-animation-delay: 8s;
+  animation-delay: 8s;
+}
+#example .slides:nth-of-type(6) {
+  -webkit-animation-delay: 0s;
+  -moz-animation-delay: 0s;
+  -o-animation-delay: 0s;
+  animation-delay: 0s;
+}
+#example .slides img {
+  animation: zoomEffect 48s linear normal none infinite running;
+  -webkit-animation: zoomEffect 48s linear normal none infinite running;
+  -o-animation: zoomEffect 48s linear normal none infinite running;
+  -moz--o-animation: zoomEffect 48s linear normal none infinite running;
+}
+#example .slides:nth-of-type(1) img {
+  -webkit-animation-delay: 40s;
+  -moz-animation-delay: 40s;
+  -o-animation-delay: 40s;
+  animation-delay: 40s;
+}
+#example .slides:nth-of-type(2) img {
+  -webkit-animation-delay: 32s;
+  -moz-animation-delay: 32s;
+  -o-animation-delay: 32s;
+  animation-delay: 32s;
+}
+#example .slides:nth-of-type(3) img {
+  -webkit-animation-delay: 24s;
+  -moz-animation-delay: 24s;
+  -o-animation-delay: 24s;
+  animation-delay: 24s;
+}
+#example .slides:nth-of-type(4) img {
+  -webkit-animation-delay: 16s;
+  -moz-animation-delay: 16s;
+  -o-animation-delay: 16s;
+  animation-delay: 16s;
+}
+#example .slides:nth-of-type(5) img {
+  -webkit-animation-delay: 8s;
+  -moz-animation-delay: 8s;
+  -o-animation-delay: 8s;
+  animation-delay: 8s;
+}
+#example .slides:nth-of-type(6) img {
+  -webkit-animation-delay: 0s;
+  -moz-animation-delay: 0s;
+  -o-animation-delay: 0s;
+  animation-delay: 0s;
+}
+#example {
+  overflow: hidden;
+}

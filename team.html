@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Córtex Fisioterapia</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="" name="keywords" />
+    <meta content="" name="description" />
+    <link rel="icon" type="image/png" href="img/favicon.png" />
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Playfair+Display:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Icon Font Stylesheet -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet" />
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/carousel.css" />
+  </head>
+
+  <body>
+    <!-- Spinner Start -->
+    <div
+      id="spinner"
+      class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
+    >
+      <div
+        class="spinner-border text-primary"
+        style="width: 3rem; height: 3rem"
+        role="status"
+      >
+        <span class="sr-only">Carregando...</span>
+      </div>
+    </div>
+    <!-- Spinner End -->
+
+    <!-- Topbar Start -->
+    <div class="container-fluid bg-dark px-5 d-none d-lg-block" id="idle">
+      <div class="row gx-0 align-items-center" style="height: 45px">
+        <div class="col-lg-8 text-center text-lg-start mb-lg-0">
+          <div class="d-flex flex-wrap">
+            <a
+              href="https://maps.app.goo.gl/CnAbRPk4hLPi68uX7"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="text-light me-4"
+              ><i class="fas fa-map-marker-alt text-primary me-2 top-icon"></i
+              >Localização</a
+            >
+            <a
+              href="tel:37996719764"
+              class="text-light me-4"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><i class="fas fa-phone-alt text-primary me-2 top-icon"></i>(37)
+              99671-9764</a
+            >
+            <a
+              href="mailto:cortexfisioespecializada@gmail.com"
+              class="text-light me-0"
+              ><i class="fas fa-envelope text-primary me-2 top-icon"></i
+              >cortexfisioespecializada@gmail.com</a
+            >
+          </div>
+        </div>
+        <div class="col-lg-4 text-center text-lg-end">
+          <div class="d-flex align-items-center justify-content-end">
+            <!-- TODO:ADD SOCIAL MEDIA LINKS -->
+            <a
+              href="https://www.facebook.com/"
+              target="_blank"
+              rel="noreferrer"
+              class="btn btn-light btn-square border rounded-circle nav-fill me-3"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+            <a
+              href="https://www.instagram.com/cortexfisio"
+              target="_blank"
+              rel="noreferrer"
+              class="btn btn-light btn-square border rounded-circle nav-fill me-3"
+              ><i class="fab fa-instagram"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Topbar End -->
+
+    <!-- Navbar & Hero Start -->
+    <div class="container-fluid position-relative p-0">
+      <nav
+        class="navbar navbar-expand-lg navbar-light bg-white px-4 px-lg-5 py-3 py-lg-0"
+      >
+        <a href="/" class="navbar-brand p-0">
+          <img src="img/logo.svg" alt="Logo" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarCollapse"
+        >
+          <span class="fa fa-bars"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <div class="navbar-nav ms-auto py-0">
+            <a href="index.html" class="nav-item nav-link">Início</a>
+            <a href="team.html" class="nav-item nav-link active">Equipe</a>
+            <a href="contact.html" class="nav-item nav-link">Contato</a>
+          </div>
+          <a
+            href="https://api.whatsapp.com/send?phone=5537996719764&text=Olá!%20Gostaria%20de%20obter%20mais%20informações%20sobre%20as%20consultas%20de%20fisioterapia."
+            class="btn btn-primary rounded-pill text-white py-2 px-4 flex-wrap flex-sm-shrink-0"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Agendar Consulta</a
+          >
+        </div>
+      </nav>
+    </div>
+    <!-- Navbar End -->
+
+    <!-- Header Start -->
+    <div class="container-fluid bg-breadcrumb" id="team">
+      <div class="container text-center py-5" style="max-width: 900px">
+        <h3
+          class="text-white display-3 mb-4 wow fadeInDown"
+          data-wow-delay="0.1s"
+        >
+          Nossa Equipe
+        </h3>
+        <ol
+          class="breadcrumb justify-content-center mb-0 wow fadeInDown"
+          data-wow-delay="0.3s"
+        >
+          <li class="breadcrumb-item"><a href="index.html">Início</a></li>
+          <li class="breadcrumb-item active text-primary">Equipe</li>
+        </ol>
+      </div>
+    </div>
+    <!-- Header End -->
+
+    <!-- Team Start -->
+    <div class="container-fluid team py-5">
+      <div class="container py-5">
+        <div class="section-title mb-5 wow fadeInUp" data-wow-delay="0.1s">
+          <div class="sub-style">
+            <h4 class="sub-title px-3 mb-0">Conheça Nossa Equipe</h4>
+          </div>
+          <h1 class="display-3 mb-4">
+            Fisioterapeutas experientes e capacitados
+          </h1>
+          <p class="mb-0">
+            Composta por fisioterapeutas altamente qualificados, especialistas e
+            mestres em fisioterapia, nossa equipe está comprometida em ajudar
+            você a alcançar seus objetivos de saúde e melhorar sua qualidade de
+            vida.
+          </p>
+        </div>
+        <div class="row g-4 justify-content-center">
+          <div
+            class="flex-card wow fadeInUp centralize mb-4"
+            data-wow-delay="0.1s"
+          >
+            <div class="col-md-6 col-lg-6 col-xl-3">
+              <div class="team-item rounded">
+                <div class="team-img rounded h-100">
+                  <img
+                    src="img/fisio2.jpg"
+                    class="img-fluid rounded-top w-100"
+                    alt=""
+                  />
+                  <div class="team-icon d-flex justify-content-center">
+                    <a
+                      class="btn btn-square btn-primary text-white rounded-circle mx-1"
+                      href="https://www.facebook.com"
+                      target="_blank"
+                      rel="noreferrer"
+                      ><i class="fab fa-facebook-f"></i
+                    ></a>
+                    <a
+                      class="btn btn-square btn-primary text-white rounded-circle mx-1"
+                      href="https://www.instagram.com/anapsfisio"
+                      target="_blank"
+                      rel="noreferrer"
+                      ><i class="fab fa-instagram"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="width-card">
+              <h3>Dra. Ana Paula Silva</h3>
+              <p>
+                Sou Ana Paula Silva, uma dedicada fisioterapeuta com vários anos
+                de experiência na área. Ao longo da minha carreira, tenho me
+                destacado pela abordagem inovadora e personalizada no
+                atendimento aos pacientes, sempre focada em proporcionar a
+                melhor qualidade de vida e recuperação possível. Meu compromisso
+                com a excelência no atendimento me levou a fundar a Clínica
+                Córtex, um espaço que se destaca tanto pela infraestrutura
+                moderna quanto pela qualidade do cuidado oferecido.
+              </p>
+              <p>
+                Minha trajetória profissional é marcada pelo contínuo
+                aperfeiçoamento e especialização em diversas áreas da
+                fisioterapia, com ênfase na reabilitação ortopédica e esportiva.
+                Tenho formação em Quiropraxia Clínica, PNF (Facilitação
+                Neuromuscular Proprioceptiva) e mobilização tecidual. Além
+                disso, desenvolvi o método Biointegrativo, uma modalidade que
+                oferece fortalecimento específico para a área esportiva.
+                Complementando minha formação, participei de cursos
+                internacionais e concluí um Mestrado, mantendo-me sempre
+                atualizada com as mais recentes evidências científicas, técnicas
+                e práticas no campo da saúde.
+              </p>
+              <p>Será um prazer te acompanhar na Cortex!</p>
+            </div>
+          </div>
+          <div
+            class="flex-card reverse wow fadeInUp centralize mb-4"
+            data-wow-delay="0.2s"
+          >
+            <div class="col-md-6 col-lg-6 col-xl-3">
+              <div class="team-item rounded">
+                <div class="team-img rounded h-100">
+                  <img
+                    src="img/fisio01.jpg"
+                    class="img-fluid rounded-top w-100"
+                    alt=""
+                  />
+                  <div class="team-icon d-flex justify-content-center">
+                    <a
+                      class="btn btn-square btn-primary text-white rounded-circle mx-1"
+                      href="https://www.facebook.com"
+                      target="_blank"
+                      rel="noreferrer"
+                      ><i class="fab fa-facebook-f"></i
+                    ></a>
+                    <a
+                      class="btn btn-square btn-primary text-white rounded-circle mx-1"
+                      href="https://www.instagram.com/daniellebfisio"
+                      target="_blank"
+                      rel="noreferrer"
+                      ><i class="fab fa-instagram"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="width-card">
+              <h3>Dra. Danielle Barbosa Benfica</h3>
+              <p>
+                Olá, sou Dani Benfica, fisioterapeuta, formada há 18 anos,
+                mestre em fisioterapia. Sou uma entusiasta no estudo da dor,
+                dedicando-me a entender suas causas, manifestações e melhores
+                abordagens terapêuticas para proporcionar alívio e melhorar a
+                qualidade de vida dos meus pacientes.
+              </p>
+              <p>
+                Ao longo da minha carreira, tenho dedicado meu trabalho a
+                melhorar a qualidade de vida dos meus pacientes que sofrem com
+                diversas disfunções. Tenho um forte compromisso com a prática
+                baseada na evidência de alta qualidade. Gosto de alinhar
+                expectativas e objetivos junto ao paciente, afim de obter
+                sucesso na reabilitação prevenindo recorrências, educando
+                pacientes e promovendo um estilo de vida mais saudável e ativo.
+              </p>
+            </div>
+          </div>
+          <div class="flex-card wow fadeInUp centralize" data-wow-delay="0.3s">
+            <div class="col-md-6 col-lg-6 col-xl-3">
+              <div class="team-item rounded">
+                <div class="team-img rounded h-100">
+                  <img
+                    src="img/fisio12.jpg"
+                    class="img-fluid rounded-top w-100"
+                    alt=""
+                  />
+                  <div class="team-icon d-flex justify-content-center">
+                    <a
+                      class="btn btn-square btn-primary text-white rounded-circle mx-1"
+                      href="https://www.facebook.com"
+                      target="_blank"
+                      rel="noreferrer"
+                      ><i class="fab fa-facebook-f"></i
+                    ></a>
+                    <a
+                      class="btn btn-square btn-primary text-white rounded-circle mx-1"
+                      href="https://www.instagram.com/marinamaritsa"
+                      target="_blank"
+                      rel="noreferrer"
+                      ><i class="fab fa-instagram"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="width-card">
+              <h3>Dra. Marina Maritsa Carvalho</h3>
+              <p>
+                Eu sou a Marina Maritsa, fisioterapeuta em constante atualização
+                para trazer o melhor para os meus pacientes. Sempre busquei as
+                instituições de maiores referências para completar a minha
+                formação: Hospital Israelita Albert Einstein, Incor- USP, UFSJ,
+                entre outros cursos nacionais e internacionais.
+              </p>
+              <p>
+                Minha ênfase de atendimentos é voltada para a reabilitação e
+                prevenção cardiovascular, respiratória, metabólica e
+                condicionamento funcional. Além da formação, acredito no poder
+                do acolhimento que o fisioterapeuta oferece dentro da equipe
+                multidisciplinar. Somos os profissionais de maior contato com a
+                rotina do paciente, por isso priorizo a conscientização de saúde
+                e marcos de evolução reais para adesão e engajamento no
+                acompanhamento em saúde.
+              </p>
+              <p>
+                Acredito que exercício é amplo e integrativo, é necessário
+                alinhar conhecimento técnico, tecnologias e individualização.
+                Desta forma, auxiliar os meus pacientes a realizar o que eles
+                quiserem, com a maior independência funcional é onde me realizo
+                diariamente. Ser instrumento para alcançar, essencialmente, a
+                qualidade de vida e poupança de saúde dos meus pacientes.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Team End -->
+
+    <!-- Footer Start -->
+    <div class="container-fluid footer py-5 wow fadeIn" data-wow-delay="0.2s">
+      <div class="container py-5">
+        <div class="row g-5 footer-cont">
+          <div class="col-md-6 col-lg-6 col-xl-3">
+            <div class="footer-item d-flex flex-column">
+              <div class="footer-logo-container">
+                <a href="/">
+                  <img
+                    class="footer-logo"
+                    src="img/logo-branca.svg"
+                    alt="Logo"
+                  />
+                </a>
+              </div>
+              <p style="min-width: 300px">
+                Clínica de fisioterapia com tratamentos personalizados e
+                específicos feito por profissionais altamente capacitados.
+              </p>
+              <div class="d-flex align-items-center">
+                <i class="fas fa-share fa-2x text-white me-2"></i>
+                <a
+                  class="btn-square btn btn-primary text-white rounded-circle mx-1"
+                  id="sm-btn"
+                  href="https://www.facebook.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  ><i class="fab fa-facebook-f"></i
+                ></a>
+                <a
+                  class="btn-square btn btn-primary text-white rounded-circle mx-1"
+                  href="https://www.instagram.com/cortexfisio"
+                  id="sm-btn"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  ><i class="fab fa-instagram"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-6 col-xl-3 padin lilwider">
+            <div class="footer-item d-flex flex-column">
+              <h4 class="mb-4 text-white">Links</h4>
+              <a href=""
+                ><i class="fas fa-angle-right me-2"></i> Política de
+                Privacidade</a
+              >
+              <a href=""
+                ><i class="fas fa-angle-right me-2"></i> Termos & Condições</a
+              >
+              <a href="team.html"
+                ><i class="fas fa-angle-right me-2"></i> Equipe</a
+              >
+              <a href="contact.html"
+                ><i class="fas fa-angle-right me-2"></i> Contato</a
+              >
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-6 col-xl-3 wider">
+            <div class="footer-item d-flex flex-column">
+              <h4 class="mb-4 text-white">Contato</h4>
+              <a
+                href="https://maps.app.goo.gl/CnAbRPk4hLPi68uX7"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><i class="fa fa-map-marker-alt me-2"></i> Rua Dona Hilda, 129 -
+                Bom Pastor <span>Divinópolis - MG</span></a
+              >
+              <a href="mailto:cortexfisioespecializada@gmail.com"
+                ><i class="fas fa-envelope me-2"></i>
+                cortexfisioespecializada@gmail.com</a
+              >
+              <a href="tel:(37)996719764"
+                ><i class="fas fa-phone me-2"></i> (37) 99671-9764</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Footer End -->
+
+    <!-- Copyright Start -->
+    <div class="container-fluid copyright py-4">
+      <div class="container">
+        <div class="row g-4 align-items-center">
+          <div class="col-md-6 text-center text-md-start mb-md-0">
+            <span class="text-white"
+              ><a href="/"
+                ><i class="fas fa-copyright text-light me-2"></i>Córtex
+                Fisioterapia</a
+              >, Todos os Direitos Reservados.</span
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Copyright End -->
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-primary btn-lg-square" id="back-to-top"
+      ><i class="fa fa-arrow-up"></i
+    ></a>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
