@@ -1478,10 +1478,16 @@
   left: 50%;
 }
 
+@media (max-width: 600px) {
+  #example .btn {
+    bottom: 20%;
+  }
+}
+
 @media (max-width: 490px) {
   #example .btn {
-    padding-left: 1.5rem !important;
-    padding-right: 1.5rem !important;
+    padding-left: 1.4rem !important;
+    padding-right: 1.4rem !important;
   }
 }
 
